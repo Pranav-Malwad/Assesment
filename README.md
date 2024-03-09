@@ -1,23 +1,59 @@
-Steps to follow to start project 
+# Project Setup Guide
 
-cd client 
-npm i  
+This guide will help you set up and run the project.
 
+## Frontend Setup
 
-cd server 
-npm i 
+1. Navigate to the client directory:
 
-//mongodb connection 
-install mongodb to your localhost or connect with mongodb atlas 
+    ```
+    cd client
+    ```
 
+2. Install dependencies:
 
+    ```
+    npm install
+    ```
 
-// To start frontend 
-npm run dev
+## Backend Setup
 
-// To start backend 
-npm start
+1. Navigate to the server directory:
 
-//admin login password 
-username: admin
-password :admin123
+    ```
+    cd server
+    ```
+
+2. Install dependencies:
+
+    ```
+    npm install
+    ```
+
+3. MongoDB Connection
+
+   - Make sure you have MongoDB installed on your localhost or connect to MongoDB Atlas.
+
+## Running the Application
+
+1. To start the frontend:
+
+    ```
+    npm run dev
+    ```
+
+2. To start the backend:
+
+    ```
+    npm start
+    ```
+
+## Admin Login Credentials
+
+- **Username**: admin
+- **Password**: admin123
+
+## Additional Notes
+
+- Ensure that MongoDB is running and accessible before starting the backend.
+
