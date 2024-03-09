@@ -1,0 +1,41 @@
+.admin-container {
+  border: 2px solid black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  border: 2px solid black;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.admin-login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-login-form input {
+  margin: 10px;
+  width: 300px;
+  padding: 0.5rem;
+  outline: none;
+}
+.admin-login {
+  width: 300px;
+  padding: 0.4rem;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 255, 0.554);
+  color: white;
+  outline: none;
+  border: none;
+
+  cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.img-featured {
+  width: 300px;
+  object-fit: contain;
+}
+
+.products-container {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.products-wrapper {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}

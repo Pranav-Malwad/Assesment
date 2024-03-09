@@ -1,0 +1,12 @@
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+  height: 250px;
+}
+
+.footer-container ul {
+  list-style: none;
+}
